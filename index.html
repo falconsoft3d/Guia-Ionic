@@ -88,17 +88,14 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
         </p>
     </div>
 
-<!-- 
+
 
     <a name="add"></a>
     <div class="scrollblock block-add">
-        <h2>Arreglos</h2>
+        <h2>Ejecutar tu aplicación</h2>
         <p>
-            <code>{}->list_x</code><br />
-            <code>For i,1,n,1</code><br />
-            <code> Request "Dame Valor:",x</code><br />
-            <code> x->list_x[i]</code><br />
-            <code>EndFor</code>
+            <code>cd myApp</code><br />
+            <code>ionic serve</code><br />
         </p>
     </div>
 
@@ -106,17 +103,19 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
     <a name="push"></a>
     <div class="scrollblock block-remote">
-        <h2>Request/If con textos</h2>
+        <h2>Tipos de plantillas de inicio de Ionic</h2>
         <p>
-           <code>"n"->megusta</code><br />
-           <code>RequestStr "te",megusta</code><br />
-           <code>if megusta="n" Then</code><br />
-           <code>EndIf</code><br />           
+           Plantilla en Blanco
+           <code>ionic start --v2 myApp blank</code><br />
+            Plantilla con Tabs
+           <code>ionic start --v2 myApp tabs</code><br />
+           Plantilla con Menú
+           <code>ionic start --v2 myApp sidemenu</code><br />     
         </p>
     </div>
 
 
-
+<!-- 
     <a name="branching"></a>
     <div class="scrollblock block-branching">
         <h2>Comando While</h2>
